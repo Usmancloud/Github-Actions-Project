@@ -3,8 +3,7 @@
 name: CI/Cd Pipeline
 
 on:
-  push:
-    branches: [ "main" ]
+branches: [ "main" ]
 
 jobs:
   compile:
